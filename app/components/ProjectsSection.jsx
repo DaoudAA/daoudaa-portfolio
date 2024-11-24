@@ -17,7 +17,7 @@ const projectsData = [
     },
     {
         id: 2,
-        title: "Site de Vente de Voitures (Front-End)",
+        title: "Car Selling Website",
         description:
             "Developed a reactive car sales front-end interface with Angular, enabling efficient browsing and detailed ad views.",
         image: "/images/projects/2.png",
@@ -30,7 +30,7 @@ const projectsData = [
         title: "Project Management Application",
         description:
             "Created a project management tool with .NET and C#, focusing on resource allocation and temporal constraint management to reduce project durations by 20%.",
-        image: "/images/projects/3.jpg",
+        image: "/images/projects/4.png",
         tag: ["All", "Web"],
         gitUrl: "https://github.com/DaoudAA/ProjectManagement_CS",
         previewUrl: "/",
@@ -40,7 +40,7 @@ const projectsData = [
         title: "Trading Simulation Application",
         description:
             "Designed a stock trading simulator in C++, integrating advanced financial modeling to improve trade execution accuracy by 20%.",
-        image: "/images/projects/4.png",
+        image: "/images/projects/3.jpg",
         tag: ["All", "Web"],
         gitUrl: "https://github.com/DaoudAA/TradingSimulator",
         previewUrl: "/",

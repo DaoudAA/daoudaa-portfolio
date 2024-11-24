@@ -55,7 +55,8 @@ const AboutSection = () => {
             <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
                 <Image src="/images/About-image.png"
                     width={400}
-                    height={400}></Image>
+                    height={400}
+                    alt="Profile image: chill samurai geek sitting in front of his computer"></Image>
                 <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
                     <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
                     <p className="text-base lg:text-lg">

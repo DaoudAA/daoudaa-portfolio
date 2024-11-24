@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
-import GithubIcon from "../../../public/github-icon.svg";
-import LinkedinIcon from "../../../public/linkedin-icon.svg";
+import GithubIcon from "../../public/github-icon.svg";
+import LinkedinIcon from "../../public/linkedin-icon.svg";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -49,6 +49,15 @@ const EmailSection = () => {
                     I&apos;m currently looking for new opportunities, my inbox is always
                     open. Whether you have a question or just want to say hi, I&apos;ll
                     try my best to get back to you!
+                    {" "}<br></br>
+                    You can reach me via email at{" "}
+                    <a
+                        href="mailto:ahmedaziz.daoud@gmail.com"
+                        className="text-primary-500 hover:underline"
+                    >
+                        AhmedAziz.Daoud@gmail.com
+                    </a>
+                    .
                 </p>
                 <div className="socials flex flex-row gap-2">
                     <Link href="https://github.com/DaoudAA">
