@@ -10,7 +10,7 @@ const projectsData = [
         title: "Communication Platform as a Service (CPaaS)",
         description:
             "Built a microservice-based application with features like dynamic email templating, contact management, and message queuing. Reduced communication errors by 30% and accelerated delivery speed by 60%.",
-        image: "/images/projects/1.png",
+        image: "./images/projects/1.png",
         tag: ["All", "Web"],
         gitUrl: "https://www.linkedin.com/posts/aadsan_softwaredevelopment-microservices-quarkus-activity-7212244794717208576-mt-t/?utm_source=share&utm_medium=member_desktop",
         previewUrl: "/",
@@ -20,7 +20,7 @@ const projectsData = [
         title: "Car Selling Website",
         description:
             "Developed a reactive car sales front-end interface with Angular, enabling efficient browsing and detailed ad views.",
-        image: "/images/projects/2.png",
+        image: "./images/projects/2.png",
         tag: ["All", "Web"],
         gitUrl: "https://github.com/DaoudAA/Car-Selling-Website--Front-End-Angular-",
         previewUrl: "/",
@@ -30,7 +30,7 @@ const projectsData = [
         title: "Project Management Application",
         description:
             "Created a project management tool with .NET and C#, focusing on resource allocation and temporal constraint management to reduce project durations by 20%.",
-        image: "/images/projects/4.png",
+        image: "./images/projects/4.png",
         tag: ["All", "Web"],
         gitUrl: "https://github.com/DaoudAA/ProjectManagement_CS",
         previewUrl: "/",
@@ -40,7 +40,7 @@ const projectsData = [
         title: "Trading Simulation Application",
         description:
             "Designed a stock trading simulator in C++, integrating advanced financial modeling to improve trade execution accuracy by 20%.",
-        image: "/images/projects/3.jpg",
+        image: "./images/projects/3.jpg",
         tag: ["All", "Web"],
         gitUrl: "https://github.com/DaoudAA/TradingSimulator",
         previewUrl: "/",
@@ -50,7 +50,7 @@ const projectsData = [
         title: "Blog Website",
         description:
             "Developed a blog platform with user authentication, content management, and contact forms, enhancing user engagement by 40%.",
-        image: "/images/projects/5.png",
+        image: "./images/projects/5.png",
         tag: ["All", "Web"],
         gitUrl: "https://github.com/DaoudAA/Blog_Website",
         previewUrl: "/",
