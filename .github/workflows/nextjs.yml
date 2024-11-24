@@ -28,6 +28,9 @@ jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
+    env: 
+      RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+      RESEND_Mailer: ${{ secrets.RESEND_Mailer }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -87,6 +90,9 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
+    env: 
+      RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+      RESEND_Mailer: ${{ secrets.RESEND_Mailer }}
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
